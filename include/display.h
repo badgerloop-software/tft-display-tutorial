@@ -5,8 +5,6 @@
 #include <TFT_eSPI.h>
 #include <Arduino.h>
 
-TFT_eSPI tft;
-
 void initDisplay();
 void setDisplayColor(uint16_t color);
 void cycleDisplayColor();
